@@ -11,7 +11,7 @@ import UIKit
 
 class RoundedWhiteButton:UIButton {
   
-  var highlightedColor = UIColor.white
+  var highlightedColor = beigeColor
   {
     didSet {
       if isHighlighted {
@@ -19,7 +19,7 @@ class RoundedWhiteButton:UIButton {
       }
     }
   }
-  var defaultColor = UIColor.clear
+  var defaultColor = navyColor
   {
     didSet {
       if !isHighlighted {

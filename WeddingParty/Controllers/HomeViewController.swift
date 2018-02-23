@@ -15,11 +15,6 @@ class HomeViewController:UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
   }
-  
-  
-  @IBAction func logoutTouched(_ sender: Any) {
-    try! Auth.auth().signOut()
-    self.dismiss(animated: false, completion: nil)
-  }
+
   
 }

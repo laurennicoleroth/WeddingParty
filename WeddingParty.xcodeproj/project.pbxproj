@@ -20,6 +20,7 @@
 		96F9FB5D204086DB00F12C27 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB5C204086DB00F12C27 /* MenuViewController.swift */; };
 		96F9FB5F20408C5B00F12C27 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB5E20408C5B00F12C27 /* LoginViewController.swift */; };
 		96F9FB612040913900F12C27 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB602040913900F12C27 /* Button.swift */; };
+		96F9FB6820409BB300F12C27 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB6720409BB300F12C27 /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		96F9FB5C204086DB00F12C27 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		96F9FB5E20408C5B00F12C27 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		96F9FB602040913900F12C27 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		96F9FB6720409BB300F12C27 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A87FBAFB4636B17A30F4E856 /* Pods-WeddingParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingParty/Pods-WeddingParty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +146,7 @@
 				96F9FB59204085B200F12C27 /* InitialViewController.swift */,
 				96F9FB5C204086DB00F12C27 /* MenuViewController.swift */,
 				96F9FB5E20408C5B00F12C27 /* LoginViewController.swift */,
+				96F9FB6720409BB300F12C27 /* SignUpViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96F9FB5A204085B200F12C27 /* InitialViewController.swift in Sources */,
+				96F9FB6820409BB300F12C27 /* SignUpViewController.swift in Sources */,
 				96F9FB3D2040775300F12C27 /* WeddingParty.xcdatamodeld in Sources */,
 				96F9FB352040775300F12C27 /* AppDelegate.swift in Sources */,
 				96F9FB5F20408C5B00F12C27 /* LoginViewController.swift in Sources */,

@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		96F9FB352040775300F12C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB342040775300F12C27 /* AppDelegate.swift */; };
-		96F9FB372040775300F12C27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB362040775300F12C27 /* ViewController.swift */; };
 		96F9FB3A2040775300F12C27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F9FB382040775300F12C27 /* Main.storyboard */; };
 		96F9FB3D2040775300F12C27 /* WeddingParty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB3B2040775300F12C27 /* WeddingParty.xcdatamodeld */; };
 		96F9FB3F2040775300F12C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F9FB3E2040775300F12C27 /* Assets.xcassets */; };
 		96F9FB422040775300F12C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F9FB402040775300F12C27 /* LaunchScreen.storyboard */; };
 		96F9FB4D2040775300F12C27 /* WeddingPartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB4C2040775300F12C27 /* WeddingPartyTests.swift */; };
 		96F9FB5820407F4200F12C27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 96F9FB5720407F4200F12C27 /* GoogleService-Info.plist */; };
+		96F9FB5A204085B200F12C27 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB59204085B200F12C27 /* InitialViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +30,6 @@
 /* Begin PBXFileReference section */
 		96F9FB312040775300F12C27 /* WeddingParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeddingParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F9FB342040775300F12C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96F9FB362040775300F12C27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96F9FB392040775300F12C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96F9FB3C2040775300F12C27 /* WeddingParty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeddingParty.xcdatamodel; sourceTree = "<group>"; };
 		96F9FB3E2040775300F12C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +39,7 @@
 		96F9FB4C2040775300F12C27 /* WeddingPartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeddingPartyTests.swift; sourceTree = "<group>"; };
 		96F9FB4E2040775300F12C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F9FB5720407F4200F12C27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		96F9FB59204085B200F12C27 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +81,8 @@
 		96F9FB332040775300F12C27 /* WeddingParty */ = {
 			isa = PBXGroup;
 			children = (
+				96F9FB5B204086A100F12C27 /* Controllers */,
 				96F9FB342040775300F12C27 /* AppDelegate.swift */,
-				96F9FB362040775300F12C27 /* ViewController.swift */,
 				96F9FB382040775300F12C27 /* Main.storyboard */,
 				96F9FB3E2040775300F12C27 /* Assets.xcassets */,
 				96F9FB402040775300F12C27 /* LaunchScreen.storyboard */,
@@ -100,6 +100,14 @@
 				96F9FB4E2040775300F12C27 /* Info.plist */,
 			);
 			path = WeddingPartyTests;
+			sourceTree = "<group>";
+		};
+		96F9FB5B204086A100F12C27 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96F9FB59204085B200F12C27 /* InitialViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F9FB372040775300F12C27 /* ViewController.swift in Sources */,
+				96F9FB5A204085B200F12C27 /* InitialViewController.swift in Sources */,
 				96F9FB3D2040775300F12C27 /* WeddingParty.xcdatamodeld in Sources */,
 				96F9FB352040775300F12C27 /* AppDelegate.swift in Sources */,
 			);

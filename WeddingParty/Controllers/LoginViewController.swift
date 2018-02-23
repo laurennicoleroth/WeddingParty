@@ -22,7 +22,7 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
     super.viewDidLoad()
     
     continueButton = RoundedWhiteButton(frame: CGRect(x: 0, y: 0, width: 200, height: 50))
-    continueButton.setTitleColor(secondaryColor, for: .normal)
+    continueButton.setTitleColor(beigeColor, for: .normal)
     continueButton.setTitle("Continue", for: .normal)
     continueButton.titleLabel?.font = UIFont.systemFont(ofSize: 18.0, weight: UIFont.Weight.bold)
     continueButton.center = CGPoint(x: view.center.x, y: view.frame.height - continueButton.frame.height - 24)
@@ -34,7 +34,7 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
     setContinueButton(enabled: false)
     
     activityView = UIActivityIndicatorView(activityIndicatorStyle: .gray)
-    activityView.color = secondaryColor
+    activityView.color = beigeColor
     activityView.frame = CGRect(x: 0, y: 0, width: 50.0, height: 50.0)
     activityView.center = continueButton.center
     

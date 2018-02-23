@@ -19,7 +19,7 @@
 		96F9FB5A204085B200F12C27 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB59204085B200F12C27 /* InitialViewController.swift */; };
 		96F9FB5D204086DB00F12C27 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB5C204086DB00F12C27 /* MenuViewController.swift */; };
 		96F9FB5F20408C5B00F12C27 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB5E20408C5B00F12C27 /* LoginViewController.swift */; };
-		96F9FB612040913900F12C27 /* RoundedWhiteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB602040913900F12C27 /* RoundedWhiteButton.swift */; };
+		96F9FB612040913900F12C27 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F9FB602040913900F12C27 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		96F9FB59204085B200F12C27 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		96F9FB5C204086DB00F12C27 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		96F9FB5E20408C5B00F12C27 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		96F9FB602040913900F12C27 /* RoundedWhiteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedWhiteButton.swift; sourceTree = "<group>"; };
+		96F9FB602040913900F12C27 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		A87FBAFB4636B17A30F4E856 /* Pods-WeddingParty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeddingParty.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeddingParty/Pods-WeddingParty.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,15 +119,12 @@
 		96F9FB332040775300F12C27 /* WeddingParty */ = {
 			isa = PBXGroup;
 			children = (
-				96F9FB5B204086A100F12C27 /* Controllers */,
 				96F9FB342040775300F12C27 /* AppDelegate.swift */,
-				96F9FB382040775300F12C27 /* Main.storyboard */,
-				96F9FB3E2040775300F12C27 /* Assets.xcassets */,
-				96F9FB402040775300F12C27 /* LaunchScreen.storyboard */,
 				96F9FB432040775300F12C27 /* Info.plist */,
-				96F9FB5720407F4200F12C27 /* GoogleService-Info.plist */,
-				96F9FB3B2040775300F12C27 /* WeddingParty.xcdatamodeld */,
-				96F9FB602040913900F12C27 /* RoundedWhiteButton.swift */,
+				96F9FB5B204086A100F12C27 /* Controllers */,
+				96F9FB622040945600F12C27 /* UI Extensions */,
+				96F9FB632040947E00F12C27 /* View */,
+				96F9FB642040948600F12C27 /* Supporting */,
 			);
 			path = WeddingParty;
 			sourceTree = "<group>";
@@ -149,6 +146,33 @@
 				96F9FB5E20408C5B00F12C27 /* LoginViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		96F9FB622040945600F12C27 /* UI Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96F9FB602040913900F12C27 /* Button.swift */,
+			);
+			path = "UI Extensions";
+			sourceTree = "<group>";
+		};
+		96F9FB632040947E00F12C27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96F9FB382040775300F12C27 /* Main.storyboard */,
+				96F9FB3E2040775300F12C27 /* Assets.xcassets */,
+				96F9FB402040775300F12C27 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96F9FB642040948600F12C27 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				96F9FB5720407F4200F12C27 /* GoogleService-Info.plist */,
+				96F9FB3B2040775300F12C27 /* WeddingParty.xcdatamodeld */,
+			);
+			path = Supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,7 +396,7 @@
 				96F9FB352040775300F12C27 /* AppDelegate.swift in Sources */,
 				96F9FB5F20408C5B00F12C27 /* LoginViewController.swift in Sources */,
 				96F9FB5D204086DB00F12C27 /* MenuViewController.swift in Sources */,
-				96F9FB612040913900F12C27 /* RoundedWhiteButton.swift in Sources */,
+				96F9FB612040913900F12C27 /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

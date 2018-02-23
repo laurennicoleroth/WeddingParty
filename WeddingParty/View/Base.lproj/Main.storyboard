@@ -430,7 +430,7 @@
             </objects>
             <point key="canvasLocation" x="3540" y="509"/>
         </scene>
-        <!--Item-->
+        <!--Feed-->
         <scene sceneID="yFb-tb-0hM">
             <objects>
                 <viewController id="tx0-cZ-uig" customClass="HomeViewController" customModule="WeddingParty" customModuleProvider="target" sceneMemberID="viewController">
@@ -464,14 +464,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="xFp-db-Kah"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="IAf-bR-kQa"/>
+                    <tabBarItem key="tabBarItem" title="Feed" id="IAf-bR-kQa"/>
                     <navigationItem key="navigationItem" id="jUi-0V-Evb">
                         <barButtonItem key="rightBarButtonItem" title="Log Out" id="g6W-9I-tgT"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CvZ-d0-NW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5738" y="125"/>
+            <point key="canvasLocation" x="5812" y="-99"/>
         </scene>
         <!--InitialViewController-->
         <scene sceneID="kDb-3g-3Yd">
@@ -558,11 +558,28 @@
                     </tabBar>
                     <connections>
                         <segue destination="tx0-cZ-uig" kind="relationship" relationship="viewControllers" id="WZE-W7-ZmR"/>
+                        <segue destination="vWu-RZ-8dz" kind="relationship" relationship="viewControllers" id="V9f-Mi-1Pj"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M9q-1u-b7A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4983" y="125"/>
+        </scene>
+        <!--events-->
+        <scene sceneID="V5a-mH-voO">
+            <objects>
+                <viewController id="vWu-RZ-8dz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FCb-v4-KNa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="lle-uY-QYs"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="events" id="4Yp-7m-VmD"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0fS-C6-P9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5812" y="577"/>
         </scene>
     </scenes>
     <resources>

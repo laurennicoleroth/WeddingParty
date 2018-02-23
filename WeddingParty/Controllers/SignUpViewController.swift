@@ -142,15 +142,28 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
             self.dismiss(animated: false, completion: nil)
           } else {
             print("Error: \(error!.localizedDescription)")
+            self.showError(error: error!.localizedDescription)
           }
         }
         
       } else {
         print("Error: \(error!.localizedDescription)")
+        self.showError(error: error!.localizedDescription)
       }
     }
     
     
+  }
+  
+  func showError(error: String) {
+    
+    activityView.stopAnimating()
+    
+    let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+    
+    alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+    
+    self.present(alert, animated: true)
   }
   
   func setupUI() {

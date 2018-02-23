@@ -62,6 +62,10 @@ class SignUpViewController:UIViewController, UITextFieldDelegate {
     let info = notification.userInfo!
     let keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
     
+    continueButton.center = CGPoint(x: self.view.center.x,
+                                    y: self.view.frame.height - keyboardFrame.height - 16.0 - continueButton.frame.height / 2)
+    activityView.center = continueButton.center
+    
   }
   
   /**

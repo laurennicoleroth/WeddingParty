@@ -138,6 +138,17 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
     passwordField.addTarget(self, action: #selector(textFieldChanged), for: .editingChanged)
   }
   
+  func showError(error: String) {
+    
+    activityView.stopAnimating()
+    
+    let alert = UIAlertController(title: "Error", message: error, preferredStyle: .alert)
+    
+    alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: nil))
+    
+    self.present(alert, animated: true)
+  }
+  
   @objc func handleSignIn() {
     guard let email = emailField.text else { return }
     guard let pass = passwordField.text else { return }
@@ -151,6 +162,7 @@ class LoginViewController:UIViewController, UITextFieldDelegate {
         self.dismiss(animated: false, completion: nil)
       } else {
         print("Error logging in: \(error!.localizedDescription)")
+        self.showError(error: error!.localizedDescription)
       }
     }
   }

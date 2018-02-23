@@ -22,7 +22,7 @@ class MenuViewController: UIViewController {
   override func viewDidAppear(_ animated: Bool) {
     if let user = Auth.auth().currentUser {
       print("Proceed to home, we have a user:", user)
-      self.performSegue(withIdentifier: "toHomeScreen", sender: self)
+//      self.performSegue(withIdentifier: "toHomeScreen", sender: self)
     }
   }
   

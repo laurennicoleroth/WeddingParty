@@ -12,6 +12,9 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
+        <array key="TimesNewRoman.ttf">
+            <string>TimesNewRomanPSMT</string>
+        </array>
         <array key="TimesNewRomanBold.ttf">
             <string>TimesNewRomanPS-BoldMT</string>
         </array>
@@ -30,26 +33,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding Party" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZN-Fr-ZMh">
-                                <rect key="frame" x="42.5" y="277.5" width="291.5" height="50"/>
-                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="45"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLo-66-hcd">
-                                <rect key="frame" x="156" y="335.5" width="64" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="25.5" y="277.5" width="324" height="55.5"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="50"/>
+                                <color key="textColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DF3-Ub-r8A" customClass="RoundedWhiteButton" customModule="WeddingParty" customModuleProvider="target">
-                                <rect key="frame" x="24" y="499" width="327" height="64"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="25" y="493" width="325" height="64"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="Muo-w0-rKM"/>
+                                    <constraint firstAttribute="height" constant="64" id="Khs-xb-FMa"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
                                 <state key="normal" title="Log In">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.086274509799999996" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="Gzf-aY-Irw" kind="show" animates="NO" id="IBH-5j-ASq">
@@ -59,13 +56,13 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cG9-g3-oLn" customClass="RoundedWhiteButton" customModule="WeddingParty" customModuleProvider="target">
                                 <rect key="frame" x="24" y="579" width="327" height="64"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="nzO-tu-dSe"/>
+                                    <constraint firstAttribute="height" constant="64" id="SEP-d8-OMX"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="25"/>
                                 <state key="normal" title="Sign Up">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="0.090196078430000007" green="0.086274509799999996" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="wie-nZ-YWG" kind="show" animates="NO" id="Xve-p8-Ir4">
@@ -76,25 +73,23 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="couple" translatesAutoresizingMaskIntoConstraints="NO" id="BUf-rb-WLe">
                                 <rect key="frame" x="87" y="53.5" width="200" height="200"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="BUf-rb-WLe" secondAttribute="height" multiplier="1:1" id="OZ0-NL-VMi"/>
-                                    <constraint firstAttribute="height" constant="200" id="jY8-tP-xjW"/>
+                                    <constraint firstAttribute="height" constant="200" id="5W6-IU-Wit"/>
+                                    <constraint firstAttribute="width" constant="200" id="JGd-JD-pEM"/>
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.090196078430000007" green="0.086274509799999996" blue="0.16862745100000001" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="DF3-Ub-r8A" firstAttribute="leading" secondItem="M2P-0A-WHL" secondAttribute="leading" constant="24" id="3Df-Pe-dFi"/>
-                            <constraint firstItem="cG9-g3-oLn" firstAttribute="top" secondItem="DF3-Ub-r8A" secondAttribute="bottom" constant="16" id="5ae-ls-lxm"/>
-                            <constraint firstItem="eLo-66-hcd" firstAttribute="centerY" secondItem="JHb-Nv-cYs" secondAttribute="centerY" id="7r9-dQ-1ar"/>
-                            <constraint firstItem="eLo-66-hcd" firstAttribute="top" secondItem="cZN-Fr-ZMh" secondAttribute="bottom" constant="8" id="Bku-l8-16T"/>
-                            <constraint firstAttribute="trailing" secondItem="DF3-Ub-r8A" secondAttribute="trailing" constant="24" id="NDT-Jw-ku1"/>
-                            <constraint firstItem="BUf-rb-WLe" firstAttribute="centerX" secondItem="JHb-Nv-cYs" secondAttribute="centerX" id="T7o-s8-S6E"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="cG9-g3-oLn" secondAttribute="bottom" constant="24" id="VL8-tL-Tu4"/>
-                            <constraint firstItem="cG9-g3-oLn" firstAttribute="leading" secondItem="M2P-0A-WHL" secondAttribute="leading" constant="24" id="WR8-k2-WAV"/>
-                            <constraint firstAttribute="trailing" secondItem="cG9-g3-oLn" secondAttribute="trailing" constant="24" id="fbS-mf-iJH"/>
-                            <constraint firstItem="eLo-66-hcd" firstAttribute="centerX" secondItem="M2P-0A-WHL" secondAttribute="centerX" id="iRA-fQ-Apa"/>
-                            <constraint firstItem="cZN-Fr-ZMh" firstAttribute="centerX" secondItem="M2P-0A-WHL" secondAttribute="centerX" id="q39-rm-JGU"/>
-                            <constraint firstItem="cZN-Fr-ZMh" firstAttribute="top" secondItem="BUf-rb-WLe" secondAttribute="bottom" constant="24" id="tJD-br-Gsb"/>
+                            <constraint firstItem="cZN-Fr-ZMh" firstAttribute="centerX" secondItem="JHb-Nv-cYs" secondAttribute="centerX" id="1zf-JS-XH2"/>
+                            <constraint firstItem="gbr-MV-We0" firstAttribute="top" secondItem="cG9-g3-oLn" secondAttribute="bottom" constant="24" id="9zx-D0-840"/>
+                            <constraint firstItem="BUf-rb-WLe" firstAttribute="top" secondItem="JHb-Nv-cYs" secondAttribute="top" constant="33.5" id="Dav-Pd-grA"/>
+                            <constraint firstItem="JHb-Nv-cYs" firstAttribute="trailing" secondItem="cG9-g3-oLn" secondAttribute="trailing" constant="24" id="Hgq-yk-sEM"/>
+                            <constraint firstItem="BUf-rb-WLe" firstAttribute="centerX" secondItem="JHb-Nv-cYs" secondAttribute="centerX" id="KFD-3l-pN4"/>
+                            <constraint firstItem="JHb-Nv-cYs" firstAttribute="trailing" secondItem="DF3-Ub-r8A" secondAttribute="trailing" constant="25" id="TGw-4E-2FD"/>
+                            <constraint firstItem="cG9-g3-oLn" firstAttribute="leading" secondItem="JHb-Nv-cYs" secondAttribute="leading" constant="24" id="gSd-Jr-BpU"/>
+                            <constraint firstItem="cG9-g3-oLn" firstAttribute="top" secondItem="DF3-Ub-r8A" secondAttribute="bottom" constant="22" id="tno-FZ-dwX"/>
+                            <constraint firstItem="cZN-Fr-ZMh" firstAttribute="top" secondItem="BUf-rb-WLe" secondAttribute="bottom" constant="24" id="wkl-62-qyL"/>
+                            <constraint firstItem="DF3-Ub-r8A" firstAttribute="leading" secondItem="JHb-Nv-cYs" secondAttribute="leading" constant="25" id="yKZ-O1-nQf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="JHb-Nv-cYs"/>
                     </view>
